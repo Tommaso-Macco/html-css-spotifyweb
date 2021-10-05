@@ -7,6 +7,38 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto Slab', serif;
+    /* DEBUG */
+    color: #626262;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #626262;
+}
+
+.hlink {
+    cursor: pointer;
+}
+
+.hlink:hover {   /* hover color white */
+    color: #fff;
+}
+
+.hlink>a:hover {   /* hover color white */
+    color: #fff;
+}
+
+.hmusic:hover { /* hover play music */
+
+}
+
 /* WRAPPER RULES */
 
 #wrapper {
@@ -37,18 +69,108 @@ nav {
     /* DEBUG */
 }
 
+/* LOGO RULES */
 #logo {
     display: flex;
     align-items: center;
     height: 100px;
 }
 
+#onlyxs {
+    display: none;
+}
+
+/* MAIN-NAV RULES */
+.icon-text-nav {
+    padding-bottom: 15px;
+}
+
 #logo img {
     width: 70%;
 }
 
+.home>a {
+    color: #fff;
+}
+
+/* PLAYLIST-TAB RULES */
+.playlist-tab {
+    margin-top: 20px;
+}
+
+#playlist-title {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#button-playlist>i {
+    font-size: 20px;
+    padding: 15px;
+    cursor: pointer;
+    color: black;
+    background-color: #a3a3a3;
+}
+
+#list-playlist { /* SCROLL PLAYLIST */
+    /* overflow-y: scroll; */
+}
+
+.playlist-name {
+    margin-top: 20px;
+}
+
+/* MEDIA NAV X SMALL */
+/* @media screen and (max-width: 552px) {
+
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #xsversion {
+        width: calc(100% - 75px);
+    }
+
+    nav {
+        width: 75px;
+    }
+
+    #logo {
+        height: auto;
+    }
+
+    #onlyxs {
+        display: inline-block;
+        padding-left: 5px;
+    }
+
+    #logo>img {
+        width: 20px;
+    }
+
+    
+    #logonormal {
+        display: none;
+    }
+
+    .playlist-tab {
+        display: none;
+    }
+
+    .icon-text-nav>a {
+        display: none;
+    }
+} */
 
 
+
+
+
+
+
+
+/* ---------------------------------------------------------- */
 /* MAIN RULES */
 
 main {
@@ -63,6 +185,7 @@ main {
 
 footer {
     height: 100px;
+    z-index: 100;
     /* DEBUG */
     background-color: red;
 }
