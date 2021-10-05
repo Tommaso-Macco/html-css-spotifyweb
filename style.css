@@ -1,0 +1,68 @@
+
+/* GENERAL RULES */
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* WRAPPER RULES */
+
+#wrapper {
+    height: calc(100vh - 100px);
+    /* DEBUG */
+    background-color: blue;
+}
+
+#wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* NAV RULES */
+
+nav {
+    float: left;
+    width: 250px;
+    height: 100%;
+    /* DEBUG */
+    background-color: black;
+}
+
+.nav-container {
+    width: 90%;
+    margin: auto;
+    /* DEBUG */
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+#logo img {
+    width: 70%;
+}
+
+
+
+/* MAIN RULES */
+
+main {
+    float: left;
+    width: calc(100% - 250px);
+    height: 100%;
+    /* DEBUG */
+    background-color: darkgreen;
+}
+
+/* FOOTER-PLAYER RULES */
+
+footer {
+    height: 100px;
+    /* DEBUG */
+    background-color: red;
+}
