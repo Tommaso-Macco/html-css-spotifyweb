@@ -362,24 +362,36 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER-PLAYER RULES */
 
 footer {
     height: 100px;
-    /* DEBUG */
-    background-color: red;
-    overflow: hidden;
+    background-color: #282828;
     position: relative;
+    /* DEBUG */
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 95%;
+    margin: auto;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    /* DEBUG */
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
+
+.music-avatar {
+    width: 60px;
+}
+
+.music-avatar>img {
+    width: 100%;
 }
