@@ -260,6 +260,44 @@ main {
     font-weight: 900;
 }
 
+/* MUSIC SCETION RULES */
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+#music-section {
+    width: 95%;
+    margin: auto;
+}
+
+.title-main {
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.music-card {
+    width: calc(100% / 5);
+    padding-right: 20px;
+}
+
+.music-image>img {
+    width: 100%;
+}
+
+.music-card>h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.music-card>h5 {
+    text-align: center;
+    margin-top: 10px;
+}
 
 
 
