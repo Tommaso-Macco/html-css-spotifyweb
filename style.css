@@ -304,10 +304,62 @@ main {
     margin-bottom: 2px;
 }
 
-.for-you>h5 {
+.tab>h5 {
     margin-bottom: 30px;
 }
 
+.tab {
+    padding-bottom: 30px;
+}
+
+/* MEDIA MUSIC SECTION 639px-875px */
+
+@media screen and (min-width: 639px) and (max-width:875px) {
+    .viewportfix {
+        display: none;
+    }
+
+    .music-card {
+        width: calc(100% / 4);
+    }
+
+    .music-card>h2 {
+        font-size: 0.9em;
+    }
+
+    .music-card>h5 {
+        font-size: 0.9em;
+    }
+
+    #category-container {
+        flex-wrap: wrap;
+    }
+
+}
+
+/* MEDIA MUSIC SECTION 552px-639px */
+
+@media screen and (min-width: 552px) and (max-width:639px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .music-card {
+        width: 50%
+    }
+
+    .music-card>h2 {
+        font-size: 0.7em;
+    }
+
+    .music-card>h5 {
+        font-size: 0.7em;
+    }
+
+    #category-container {
+        flex-wrap: wrap;
+    }
+}
 
 
 
