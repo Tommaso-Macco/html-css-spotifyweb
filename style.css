@@ -218,6 +218,7 @@ main {
     float: left;
     width: calc(100% - 250px);
     height: 100%;
+    overflow-y: auto;
     /* DEBUG */
     background-color: darkgreen;
 }
@@ -299,6 +300,13 @@ main {
     margin-top: 10px;
 }
 
+.subtitle {
+    margin-bottom: 2px;
+}
+
+.for-you>h5 {
+    margin-bottom: 30px;
+}
 
 
 
@@ -320,4 +328,6 @@ footer {
     height: 100px;
     /* DEBUG */
     background-color: red;
+    overflow: hidden;
+    position: relative;
 }
