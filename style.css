@@ -222,11 +222,64 @@ main {
     background-color: darkgreen;
 }
 
+#main-container {
+    background-color: #141922;
+}
+
+/* UPGRADE BUTTON RULES */
+#upgrade { 
+    height: 100px;
+    background-color: #080b12;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#upgrade>a {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    font-weight: 900;
+}
+
+/* CATEGORY RULES */
+#category-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.category-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.category-content>a {
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER-PLAYER RULES */
 
 footer {
     height: 100px;
-    z-index: 100;
     /* DEBUG */
     background-color: red;
 }
